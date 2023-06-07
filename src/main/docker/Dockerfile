@@ -9,7 +9,7 @@ WORKDIR /esms
 
 EXPOSE 8090
 
-ADD ../../../target/esms.jar ./
+ADD ../../../target/docker-springboot-1.0-SNAPSHOT.jar ./
 
 CMD java -Djava.security.egd=file:/dev/./urandom -jar esms.jar
 
