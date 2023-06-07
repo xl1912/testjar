@@ -9,7 +9,7 @@ WORKDIR /esms
 
 EXPOSE 8090
 
-ADD ./target/esms.jar ./
+ADD ../../../target/esms.jar ./
 
 CMD java -Djava.security.egd=file:/dev/./urandom -jar esms.jar
 
