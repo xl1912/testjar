@@ -11,4 +11,4 @@ EXPOSE 8090
 
 ADD ./target/docker-springboot-1.0-SNAPSHOT.jar ./
 
-CMD java -Djava.security.egd=file:/dev/./urandom -jar esms.jar
+CMD java -Djava.security.egd=file:/dev/./urandom -jar docker-springboot-1.0-SNAPSHOT.jar
